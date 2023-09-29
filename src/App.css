@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.container{
+ 
+  padding: 1rem;
+}
+.container>h1{
+  text-align: center;
+  
+}
+
+.billbox{
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+}
+.left{
+  width: 30%;
+}
+
+.buttonsall{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+  column-gap: 2rem;
+  row-gap: 1rem;
+}
+.buttonsall button{
+  padding: .3rem 0;
+  width: 20%;
+  text-align: center;
+
+}
